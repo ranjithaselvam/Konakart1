@@ -15,9 +15,10 @@ import com.atmecs.konakart.utility.Utility;
 
 public class TestBase {
 	/**
-	 * Different browser setup to run the script in different different browser.
-	 * 
-	 * @author ranjitha.selvam
+	 *  Browser setup to run the script in different  browser.
+	 *  (Chrome ,Firefox ,Internet Explorer)
+	 *  
+	 *  @author ranjitha.selvam
 	 *
 	 */
 

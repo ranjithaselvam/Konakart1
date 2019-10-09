@@ -19,8 +19,9 @@ public class Constants {
 	public final static String productLoc_file="./src/test/resources/locators/productloc.properties";
 	public final static String positiveSearchData_file="./src/test/resources/testdata/positivesearchdata.xlsx";
 	public final static String negativeSearchData_file="./src/test/resources/testdata/negativesearchdata.xlsx";
-	public final static String searchresultData_file="/Konakart/src/test/resources/testdata/searchresultdata.xlsx";
-	public final static String customerreview_file="./src/test/resources/testdata/customerreviewdata.xlsx";
+	public final static String customerReviewData_file="./src/test/resources/testdata/customerreviewdata.xlsx";
+	public final static String heroImgData_file="./src/test/resources/testdata/heroimgcontent.xlsx";
+	public final static String heroImgLoc_file="./src/test/resources/testdata/heroimgloc.xlsx";
 	
 
 

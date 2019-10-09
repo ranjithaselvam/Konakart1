@@ -35,19 +35,15 @@ public class Helper {
 	}
 	
 
-	public static void click(WebDriver driver,String xpath) {
+	public static boolean click(WebDriver driver,String xpath) {
 		
 			
 
-				 driver.findElement(By.xpath(xpath));
-
+				 WebElement findElement = driver.findElement(By.xpath(xpath));
+               findElement.click();
+			return false;
 				
-				
-				
-
-		
-		
-	}
+				}
 	
 /*
  *  * Navigate to back  page.
@@ -73,12 +69,12 @@ public class Helper {
 
 		WebElement element = driver.findElement(By.xpath(xpath));
 
-
+	    element.click();
 
 		// now execute query which actually will scroll until that element is not appeared on page.
 
 		je.executeScript("arguments[0].scrollIntoView(true);",element);
-        element.click();
+       
 		
 	}
 	

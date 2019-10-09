@@ -4,7 +4,7 @@
   <test  name="Test">
     <classes>
       <class name="com.atmecs.konakart.script.ProductValidation"/>
-      <class name="com.atmecs.konakart.script.Searches"/>
+      <class name="com.atmecs.konakart.script.PositiveAndNegativeSearches"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
